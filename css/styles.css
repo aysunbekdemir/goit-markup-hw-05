@@ -499,7 +499,9 @@ li {
 .form-subscribe-input {
     width: 264px;
     height: 40px;
-    border: ;
+    border:1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
     padding-left: 16px;
@@ -507,7 +509,7 @@ li {
     border-radius: 4px;
     color: #ffffff;
 }
-.form-subscribe-butto {
+.form-subscribe-button {
     min-width: 165px;
     height: 40px;
     display: flex;
@@ -525,7 +527,7 @@ li {
     border-radius: 4px;
 }
 .form-subscribe-button-svg {
-    margin-bottom: 16px;
+    margin-left: 16px;
 }
 .modal-window {
     position: fixed;
