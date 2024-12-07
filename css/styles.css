@@ -560,7 +560,7 @@ li {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%,-50%);
     width: 408px;
     min-height: 584px;
     background-color: #fcfcfc;
@@ -587,22 +587,22 @@ li {
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container-button:hover {
+.modal-container-button :hover {
     background-color: #404bbf;
     border: none;
 }
-.modal-container-button:focus {
+.modal-container-button :focus {
     border: none;
     background-color: #404bbf;
 }
 .modal-container-button-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container-button-svg:hover {
+.modal-container-button-svg :hover {
     fill: #ffffff;
 
 }
-.modal-container-button-svg:focus {
+.modal-container-button-svg :focus {
     fill: #ffffff;
 }
 .modal-container-text{
@@ -620,7 +620,7 @@ li {
     align-items: center;
 }
 .modal-container-form-div{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
     width: 100%;
 }
 .modal-container-form-div-label {
@@ -637,16 +637,16 @@ li {
     position: relative;
 }
 .modal-container-form-label-div-input {
-    width: 100%;
+    width: 100px;
     height: 40px;
-    border: 1px s;olid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     background-color: transparent;
     padding-left: 38px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container-form-label-div-input:focus {
+.modal-container-form-label-div-input :focus {
     border-color: #4D5AE5;
 }
 .modal-container-form-label-div-input-svg {
@@ -656,7 +656,7 @@ li {
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container-form-label-div-input-svg:focus {
+.modal-container-form-label-div-input-svg :focus {
     fill: #4D5AE5;
 }
 .modal-container-form-div-label-textarea {
@@ -674,7 +674,7 @@ li {
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container-form-div-label-textarea:focus {
+.modal-container-form-div-label-textarea :focus {
     border-color: #4D5AE5;
 }
 
@@ -703,7 +703,7 @@ li {
     color: #4d5ae5;
 }
 
-.modal-container-form-checkbox input[type="checkbox"]:checked+span {
+.modal-container-form-checkbox input[type="checkbox"] :checked+span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
