@@ -492,7 +492,6 @@ li {
 }
 .footer-social-media-button-href:focus {
     background-color: #31d0aa;
-    
 }
 .footer-subscribe {
     margin-left: 60px;
@@ -596,9 +595,7 @@ li {
 .modal-container-button-svg {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-container-button-svg:hover {
-    fill: #ffffff;
-}
+.modal-container-button-svg:hover,
 .modal-container-button-svg:focus {
     fill: #ffffff;
 }
@@ -617,7 +614,7 @@ li {
     align-items: center;
 }
 .modal-container-form-div{
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 .modal-container-form-div-label {
     font-size: 12px;
@@ -633,7 +630,7 @@ li {
     position: relative;
 }
 .modal-container-form-label-div-input {
-    width: 100px;
+    width: 100%;
     height: 40px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -699,7 +696,7 @@ li {
     color: #4d5ae5;
 }
 
-.modal-container-form-checkbox input[type="checkbox"] :checked+span {
+.form-checkbox-input:checked + .span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
